@@ -5,7 +5,7 @@ import java.net.URL
 
 node{
     stage('Git Checkout'){
-        git 'https://github.com/anuj-nits/LiquorStoreApp.git/'
+        git 'https://github.com/anuj-nits/Edureka-git.git'
     }
     stage('Compile App'){
             withMaven(maven:'Maven 3'){
